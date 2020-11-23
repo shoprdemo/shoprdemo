@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="HybridIntegrationDemo.usecases.AWSS3integration.cloudstreams:listAllBuckets" connectorServiceName="HybridIntegrationDemo.usecases.AWSS3integration.cloudstreams:listAllBuckets"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
