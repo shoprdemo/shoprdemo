@@ -2,6 +2,7 @@
 <services>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
         <servicesKeys>
+            <keyDetails collectionKey="HybridIntegrationDemo.usecases.AWSS3integration.cloudstreams:createFile" connectorServiceName="HybridIntegrationDemo.usecases.AWSS3integration.cloudstreams:createFile"/>
             <keyDetails collectionKey="HybridIntegrationDemo.usecases.AWSS3integration.cloudstreams:listAllBuckets" connectorServiceName="HybridIntegrationDemo.usecases.AWSS3integration.cloudstreams:listAllBuckets"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
