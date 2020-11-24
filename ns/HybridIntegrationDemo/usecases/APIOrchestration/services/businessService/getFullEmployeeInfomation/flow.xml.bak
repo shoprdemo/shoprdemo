@@ -988,9 +988,6 @@
 <MAPCOPY FROM="/getMaritalStatusFromHomeAffairsResponse;2;0/result;1;0" TO="/employeeInfoResponse;4;0;HybridIntegrationDemo.usecases.APIOrchestration.services.documents:employeeInfomation/employeeDetails;2;0/maritalStatus;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/getCriminalRecordFromSAPSResponse;2;0/status;1;0" TO="/employeeInfoResponse;4;0;HybridIntegrationDemo.usecases.APIOrchestration.services.documents:employeeInfomation/employeeDetails;2;0/criminalRecord;1;0">
-</MAPCOPY>
-
 <MAPCOPY FROM="/getEmployeeInfomationFromHR;2;0/name;1;0" TO="/employeeInfoResponse;4;0;HybridIntegrationDemo.usecases.APIOrchestration.services.documents:employeeInfomation/employeeDetails;2;0/name;1;0">
 </MAPCOPY>
 
@@ -1023,6 +1020,9 @@
 
 <MAPDELETE FIELD="/getMaritalStatusFromHomeAffairsResponse;2;0">
 </MAPDELETE>
+
+<MAPCOPY FROM="/getCriminalRecordFromSAPSResponse;2;0/result;1;0" TO="/employeeInfoResponse;4;0;HybridIntegrationDemo.usecases.APIOrchestration.services.documents:employeeInfomation/employeeDetails;2;0/criminalRecord;1;0">
+</MAPCOPY>
 </MAP>
 
 <SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="CATCH">
